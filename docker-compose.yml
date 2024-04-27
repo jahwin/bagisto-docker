@@ -8,7 +8,7 @@ services:
       args:
         container_project_path: /var/www/html/bagisto/
         uid: 1000
-        user: $USER
+        user: jahwin
       context: .
       dockerfile: ./Dockerfile
     image: bagisto-php-apache
